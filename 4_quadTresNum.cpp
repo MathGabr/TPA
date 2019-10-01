@@ -1,4 +1,4 @@
-/*Função: lê três valores e exibe o quadrado da soma dos valores
+/*FunÃ§Ã£o: lÃª trÃªs valores inteiros e exibe o quadrado da soma dos valores
 Autor: Matheus Gabriel e Silva
 Data:29/09/2019
 */
@@ -22,7 +22,7 @@ int main(){
 	quad = n1+n2+n3;
 	quad = quad*quad;
 	
-	printf("O quadrado da soma dos numeros informados é: %i\n\n\n",quad);
+	printf("O quadrado da soma dos numeros informados Ã©: %i\n\n\n",quad);
 	system("pause");
 		
 }
