@@ -1,4 +1,4 @@
-/*FunÁ„o: calcula o aumento de um sal·rio
+/*Fun√ß√£o: calcula o aumento de um sal√°rio
 Autor: Matheus Gabriel e Silva
 Data:30/09/2019
 */
@@ -10,7 +10,7 @@ int main (){
 	setlocale(LC_ALL, "");
 	float s = 0.0, sf = 0.0, a = 0.0;
 	
-	printf("Informe o sal·rio atual: ");
+	printf("Informe o sal√°rio atual: ");
 	scanf("%f",&s);
 
 	printf("Informe a porcetagem do aumento: ");
@@ -18,7 +18,7 @@ int main (){
 	
 	sf = a/100*s+s;
 	
-	printf("O novo sal·rio È: %f\n\n\n",sf);
+	printf("O novo sal√°rio √©: %.2f\n\n\n",sf);
 	system("pause");
 		
 }
