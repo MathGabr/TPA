@@ -1,4 +1,4 @@
-/*Função: calcula a área de um triangulo
+/*FunÃ§Äƒo: calcula a Ã¡rea de um triangulo
 Autor: Matheus Gabriel e Silva
 Data:30/09/2019
 */
@@ -10,15 +10,15 @@ int main (){
 	setlocale(LC_ALL, "");
 	float b = 0.0, h = 0.0, area = 0.0;
 	
-	printf("Informe a base do triângulo: ");
+	printf("Informe a base do triÃ¢ngulo: ");
 	scanf("%f",&b);
 
-	printf("Informe a altura do triângulo: ");
+	printf("Informe a altura do triÃ¢ngulo: ");
 	scanf("%f",&h);
 	
 	area = b*h/2;
 	
-	printf("A área do triângulo é: %f\n\n\n",area);
+	printf("A Ã¡rea do triÃ¢ngulo Ã©: %.2f\n\n\n",area);
 	system("pause");
 		
 }
