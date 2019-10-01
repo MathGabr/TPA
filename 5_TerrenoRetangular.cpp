@@ -1,4 +1,4 @@
-/*FunÁ„o: calcula o preÁo de um terreno ret‚ngular
+/*Fun√ß√£o: calcula o pre√ßo de um terreno ret√¢ngular
 Autor: Matheus Gabriel e Silva
 Data:29/09/2019
 */
@@ -23,7 +23,7 @@ int main(){
 	area = H*B;
 	preco = area*m2;
 	
-	printf("O preco do terreno È: %f\n\n\n",preco);
+	printf("O preco do terreno √©: %.2f\n\n\n",preco);
 	system("pause");
 		
 }
